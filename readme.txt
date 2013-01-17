@@ -1,1 +1,1 @@
-v.0.0.1 Init. Integration with redmine
+v.0.0.1 Init. Integration with redmine, email
