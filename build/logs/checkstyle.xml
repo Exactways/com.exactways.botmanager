@@ -1,35 +1,5 @@
 <?xml version="1.0"?>
 <ruleset name="ZF2">
-    <description>Zend Framework 2 Coding Standard</description>
-    <exclude-pattern>*/tests/*</exclude-pattern>
-
-    <!-- 80 expected, 120 absolute max for line width -->
-    <rule ref="Generic.Files.LineLength">
-        <properties>
-            <property name="lineLimit" value="80"/>
-            <property name="absoluteLineLimit" value="120"/>
-        </properties>
-    </rule>
-    <rule ref="Generic.Files.LineLength.TooLong">
-        <message>Line exceeds %s characters; contains %s characters</message>
-        <severity>3</severity>
-    </rule>
-
-    <!-- No TABs allowed -->
-    <rule ref="Generic.WhiteSpace.DisallowTabIndent" />
-    
-    <!-- Indent 4 spaces -->
-    <rule ref="Generic.WhiteSpace.ScopeIndent">
-        <properties>
-            <property name="indent" value="4"/>
-        </properties>
-    </rule>
-
-    <!-- LF as line ending; 10 ordinal; 0x0A hex; -->
-    <rule ref="Generic.Files.LineEndings" />
-
-    <!-- Misc -->
-    <rule ref="Generic.Commenting.Todo"/>
-
-
+ <description>Zend Framework 2 Coding Standard</description>
+ <exclude-pattern>*/tests/*</exclude-pattern>
 </ruleset>
