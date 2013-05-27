@@ -1,5 +1,5 @@
 <?php
-class PhpUnderControl_Example_Math
+class Math
 {
     /**
 * Adds the two given values.

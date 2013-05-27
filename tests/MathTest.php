@@ -3,7 +3,7 @@ require_once 'PHPUnit/Framework/TestCase.php';
 
 require_once dirname(__FILE__) . '/../src/index.php';
 
-class PhpUnderControl_Example_MathTest extends PHPUnit_Framework_TestCase
+class MathTest extends PHPUnit_Framework_TestCase
 {
     /**
 * The used math object.
