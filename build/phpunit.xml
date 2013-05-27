@@ -1,4 +1,4 @@
-<phpunit bootstrap="./tests/index.php" colors="true">
+<phpunit bootstrap="tests/index.php" colors="true">
 	<logging>
 		<log type="coverage-html" target="build/coverage" title="test" charset="UTF-8" yui="true" highlight="true" lowUpperBound="35" highLowerBound="70"/>
 		<log type="coverage-clover" target="build/logs/clover.xml"/>
