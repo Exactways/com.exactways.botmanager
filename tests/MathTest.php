@@ -19,7 +19,7 @@ class MathTest extends PHPUnit_Framework_TestCase
     {
         parent::setUp();
 
-        $this->math = new PhpUnderControl_Example_Math();
+        $this->math = new Math();
     }
 
     /**
