@@ -1,4 +1,25 @@
-<logging>
+<phpunit backupGlobals="true"
+         backupStaticAttributes="false"
+         <!--bootstrap="/path/to/bootstrap.php"-->
+         cacheTokens="false"
+         colors="false"
+         convertErrorsToExceptions="true"
+         convertNoticesToExceptions="true"
+         convertWarningsToExceptions="true"
+         forceCoversAnnotation="false"
+         mapTestClassNameToCoveredClassName="false"
+         printerClass="PHPUnit_TextUI_ResultPrinter"
+         <!--printerFile="/path/to/ResultPrinter.php"-->
+         processIsolation="false"
+         stopOnError="false"
+         stopOnFailure="false"
+         stopOnIncomplete="false"
+         stopOnSkipped="false"
+         testSuiteLoaderClass="PHPUnit_Runner_StandardTestSuiteLoader"
+         <!--testSuiteLoaderFile="/path/to/StandardTestSuiteLoader.php"-->
+         strict="false"
+         verbose="false">
+		 <logging>
  <log type="coverage-html" target="build/coverage" title="test"
       charset="UTF-8" yui="true" highlight="true"
       lowUpperBound="35" highLowerBound="70"/>
@@ -6,3 +27,4 @@
  <log type="junit" target="build/logs/junit.xml"
       logIncompleteSkipped="false"/>
 </logging>
+</phpunit>
