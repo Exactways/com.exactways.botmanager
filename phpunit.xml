@@ -1,7 +1,7 @@
 <phpunit bootstrap="tests/index.php" colors="true">
 	<testsuites>
         <testsuite name="UserModule Test Suite">
-            <directory>/src/*.php</directory>
+            <directory>src/*.php</directory>
         </testsuite>
     </testsuites>
 	<logging>
