@@ -1,7 +1,7 @@
 <?php
 require_once 'PHPUnit/Framework/TestCase.php';
 
-require_once dirname(__FILE__) . '/../src/index.php';
+require_once dirname(__FILE__) . '/../src/Math.php';
 
 class MathTest extends PHPUnit_Framework_TestCase
 {
